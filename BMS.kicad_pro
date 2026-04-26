@@ -411,6 +411,14 @@
     [
       "817ced98-0cef-4e0f-b532-5d01d2bf5768",
       "Root"
+    ],
+    [
+      "9528ad98-0756-48d9-ba88-f7143f9c5847",
+      "batteries"
+    ],
+    [
+      "fda28238-53e6-4ab9-82f6-1855b1514f6c",
+      "lm317"
     ]
   ],
   "text_variables": {}
