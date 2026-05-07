@@ -7,6 +7,11 @@ Reference AC/DC SMPS multi-output design from DigiKey:
 
 ---
 
+#BQ77905 Design Consideration:
+
+ - https://www.ti.com/lit/an/slua793/slua793.pdf?ts=1778172323063&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ77905
+
+
 # EMI / Input Protection
 
 ## Common Mode Choke
@@ -152,6 +157,14 @@ Interesting discussion about manufacturing test procedures:
 Community PCB implementation:
 
 - https://www.pcbway.com/project/shareproject/bq40z50_r2_BMS_4S_681f1491.html
+
+---
+
+# Quick Current Shutdown
+
+Quick implementation of npn switch
+
+ - https://www.ti.com/lit/an/slua826/slua826.pdf?ts=1778166672133
 
 ---
 
