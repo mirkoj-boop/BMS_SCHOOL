@@ -1,7 +1,7 @@
 # BMS_SCHOOL
 BMS sustav za kolegij Elektrotehničke tehnologije
 
-<img src="images/bms.jpg" alt="BMS" width="600">
+<img src="images/bms.jpg" alt="BMS" width="400">
 
 
 # Passive Control
