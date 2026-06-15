@@ -7,7 +7,7 @@ Reference AC/DC SMPS multi-output design from DigiKey:
 
 ---
 
-#BQ77905 Design Consideration:
+## BQ77905 Design Consideration:
 
  - https://www.ti.com/lit/an/slua793/slua793.pdf?ts=1778172323063&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ77905
 
