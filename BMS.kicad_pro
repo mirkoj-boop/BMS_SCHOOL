@@ -819,7 +819,7 @@
         "uuid": "817ced98-0cef-4e0f-b532-5d01d2bf5768"
       }
     ],
-    "used_designators": "#PWR13-14,BT18,T1,T3,C21-22,C38,2W\\,5.1Ohm8-10,2W\\,5.1Ohm22,U1-2",
+    "used_designators": "2W\\,4.7KOhm1,U1-3,D1,D6,D8-9,#PWR16-18,2W\\,5.1Ohm3-4,2W\\,5.1Ohm8-12,2W\\,5.1Ohm14-15,C1-7,C21,C23-24,1/8W\\,33KOhm9-10,FL2,J2-4,J7,TR1",
     "variants": []
   },
   "sheets": [
