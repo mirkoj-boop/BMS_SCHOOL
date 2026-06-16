@@ -819,13 +819,33 @@
         "uuid": "817ced98-0cef-4e0f-b532-5d01d2bf5768"
       }
     ],
-    "used_designators": "",
+    "used_designators": "1M4,1M6,#PWR13-14,#PWR19-24,#PWR39-51,T4,D6,D8-12,2W\\,5.1Ohm3-4,2W\\,5.1Ohm8-10,2W\\,5.1Ohm12,2W\\,5.1Ohm14-15,2W\\,5.1Ohm23-28,C3-4,C22,C25-29,C32,C39-47,220ohm2-3,1/8W\\,33KOhm11-12,FL2,J2,J7-8,U3-4,U19,U22,BT19-22,R18,TH3,2W\\,4.7KOhm2,Q25-27,6ohm2",
     "variants": []
   },
   "sheets": [
     [
       "817ced98-0cef-4e0f-b532-5d01d2bf5768",
       "BMS"
+    ],
+    [
+      "08806735-9e65-43f6-90f2-42d1c3916026",
+      "acdc"
+    ],
+    [
+      "d385e53f-49e3-471a-b1dc-1a8003a0f62c",
+      "balancer"
+    ],
+    [
+      "0744ea14-df6f-4949-a790-0a16eb35e19b",
+      "acdcflyback"
+    ],
+    [
+      "e78dfd93-ce42-4baf-a22a-8813e5b73727",
+      "overcharge"
+    ],
+    [
+      "200f4554-12b1-46f9-aa79-15db533d8c6a",
+      "overcurrent"
     ]
   ],
   "text_variables": {},
