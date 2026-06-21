@@ -9190,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BATT_PACK -"
+		(property "Value" "PACK _PACK -"
 			(at 280.67 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +10356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 204.47 204.1652 0)
 			(hide yes)
 			(show_name no)
@@ -11635,7 +11635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11716,7 +11716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.1248 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11953,7 +11953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.3448 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12112,7 +12112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 204.1652 0)
 			(hide yes)
 			(show_name no)
@@ -12520,7 +12520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 157.7848 0)
 			(hide yes)
 			(show_name no)
@@ -13059,7 +13059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 72.6948 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -13416,7 +13416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -14261,7 +14261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.5052 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14500,7 +14500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.0448 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +15344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.7548 146.05 0)
 			(hide yes)
 			(show_name no)
