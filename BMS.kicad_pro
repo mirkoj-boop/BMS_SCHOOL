@@ -849,7 +849,7 @@
         "uuid": "817ced98-0cef-4e0f-b532-5d01d2bf5768"
       }
     ],
-    "used_designators": "R33k1,33k1,Inrush1,J7,4.7k1",
+    "used_designators": "U3,R33k1,33k1,Inrush1,J7,4.7k1,D6,D8-16,C3,#PWR39",
     "variants": []
   },
   "sheets": [
