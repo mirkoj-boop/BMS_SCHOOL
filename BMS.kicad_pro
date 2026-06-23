@@ -520,18 +520,30 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
+        "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "microvia_diameter": 0.5,
+        "name": "2A BQ",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
         "clearance": 0.3,
         "microvia_diameter": 0.5,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -874,7 +886,7 @@
         "uuid": "817ced98-0cef-4e0f-b532-5d01d2bf5768"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R6,#FLG1-3",
     "variants": []
   },
   "sheets": [
