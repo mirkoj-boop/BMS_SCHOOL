@@ -7392,12 +7392,6 @@
 		(uuid "df387d22-0708-4f83-b29d-ed79d87a6c98")
 	)
 	(junction
-		(at 45.72 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2cf6294-7b30-4275-ab73-6cd0f6608aa3")
-	)
-	(junction
 		(at 73.66 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8069,16 +8063,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 158.75) (xy 45.72 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3976dd7a-b56d-4053-aed2-0fafafe441cf")
-	)
-	(wire
-		(pts
 			(xy 67.31 185.42) (xy 67.31 233.68)
 		)
 		(stroke
@@ -8416,16 +8400,6 @@
 			(type default)
 		)
 		(uuid "59e53aa7-66eb-4eac-83f4-7e461e21199b")
-	)
-	(wire
-		(pts
-			(xy 45.72 153.67) (xy 45.72 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b36a60e-3a5b-4e66-8110-b75a446ea0c1")
 	)
 	(wire
 		(pts
@@ -9889,7 +9863,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 158.75) (xy 38.1 158.75)
+			(xy 38.1 158.75) (xy 50.8 158.75)
 		)
 		(stroke
 			(width 0)
@@ -9929,7 +9903,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 158.75) (xy 45.72 162.56)
+			(xy 45.72 153.67) (xy 45.72 162.56)
 		)
 		(stroke
 			(width 0)
@@ -17200,7 +17174,6 @@
 	(symbol
 		(lib_id "Isolator:PC817")
 		(at 283.21 60.96 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17208,7 +17181,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae359e3a-432b-4d25-b04e-f909c1d22a9a")
 		(property "Reference" "U2"
 			(at 283.21 52.07 0)
@@ -17231,7 +17203,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 288.29 66.04 0)
+			(at 278.13 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
