@@ -7218,6 +7218,12 @@
 		(uuid "6f40c29d-b273-4e17-adb8-d8e193f77ee4")
 	)
 	(junction
+		(at 226.06 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7050b2c4-585c-43b8-8727-dade84d3dec7")
+	)
+	(junction
 		(at 46.99 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7460,6 +7466,16 @@
 			(type default)
 		)
 		(uuid "0336afb2-635c-471d-a461-fc9504b9e74f")
+	)
+	(wire
+		(pts
+			(xy 261.62 177.8) (xy 280.67 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0482fe8c-3324-406e-adc6-27d5a959a417")
 	)
 	(wire
 		(pts
@@ -7913,7 +7929,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 220.98) (xy 227.33 220.98)
+			(xy 217.17 220.98) (xy 226.06 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9823,6 +9839,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 220.98) (xy 227.33 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db25452b-d221-464b-b732-73d354d02ae4")
+	)
+	(wire
+		(pts
 			(xy 210.82 177.8) (xy 222.25 177.8)
 		)
 		(stroke
@@ -9930,16 +9956,6 @@
 			(type default)
 		)
 		(uuid "e6f781cf-543f-442e-b3dc-d7a5d5f96714")
-	)
-	(wire
-		(pts
-			(xy 261.62 177.8) (xy 273.05 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e782186a-aca6-4c36-a757-3e71eb5d59b5")
 	)
 	(wire
 		(pts
@@ -10100,6 +10116,16 @@
 			(type default)
 		)
 		(uuid "fc73ea70-37e4-442c-a18f-3ae5c6f1d766")
+	)
+	(wire
+		(pts
+			(xy 226.06 228.6) (xy 226.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd458b14-2c83-4fdc-b265-a68cd90fc1c6")
 	)
 	(wire
 		(pts
@@ -10567,6 +10593,30 @@
 			)
 		)
 	)
+	(global_label "PACK-"
+		(shape input)
+		(at 280.67 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e46665bb-dcfb-4c2c-8500-3025af217a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.1262 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FB"
 		(shape input)
 		(at 134.62 76.2 0)
@@ -10604,6 +10654,30 @@
 		(uuid "fe22cebb-5426-449f-a4ef-c3615fca0629")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.9938 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PACK-"
+		(shape input)
+		(at 226.06 228.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffd34b1f-67df-477f-a1b5-893e4bf1989f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 238.0562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,85 +11366,6 @@
 			(project "BMS"
 				(path "/817ced98-0cef-4e0f-b532-5d01d2bf5768"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 278.13 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d09ba3-74cd-4055-8f1a-66554d6ff4ca")
-		(property "Reference" "J6"
-			(at 280.67 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PACK _PACK -"
-			(at 280.67 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
-			(at 278.13 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 278.13 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e5e70be-64ac-40b9-a7a1-07273f5f61f9")
-		)
-		(instances
-			(project "BMS"
-				(path "/817ced98-0cef-4e0f-b532-5d01d2bf5768"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17174,6 +17169,7 @@
 	(symbol
 		(lib_id "Isolator:PC817")
 		(at 283.21 60.96 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17203,7 +17199,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 278.13 66.04 0)
+			(at 288.29 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18074,6 +18070,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 227.33 151.13 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18083,7 +18080,7 @@
 		(dnp no)
 		(uuid "d25f3229-488f-42e0-ba1b-1274852dab8f")
 		(property "Reference" "1M3"
-			(at 225.298 151.638 90)
+			(at 229.362 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18093,7 +18090,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 231.14 151.13 90)
+			(at 223.52 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18103,7 +18100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 225.552 151.13 90)
+			(at 229.108 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
