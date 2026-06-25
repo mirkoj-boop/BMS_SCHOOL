@@ -7176,12 +7176,6 @@
 		(uuid "59e3053e-b164-4fc6-95fb-a051d8f23de8")
 	)
 	(junction
-		(at 261.62 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f5814f2-4eba-439d-8cb7-860a9d0c37d2")
-	)
-	(junction
 		(at 127 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7398,6 +7392,12 @@
 		(uuid "df387d22-0708-4f83-b29d-ed79d87a6c98")
 	)
 	(junction
+		(at 261.62 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3d7a0d9-2d3f-420d-bfb4-32c04fac8230")
+	)
+	(junction
 		(at 73.66 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7426,6 +7426,16 @@
 	(no_connect
 		(at 97.79 170.18)
 		(uuid "f4095e28-10e9-4349-8a40-ba40e116c33c")
+	)
+	(wire
+		(pts
+			(xy 261.62 177.8) (xy 280.67 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00187f82-76e7-4a19-9590-4199e127253e")
 	)
 	(wire
 		(pts
@@ -7469,7 +7479,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 177.8) (xy 280.67 177.8)
+			(xy 245.11 177.8) (xy 261.62 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7926,6 +7936,16 @@
 			(type default)
 		)
 		(uuid "28cf03f9-4a0b-4a59-a122-e530a5901317")
+	)
+	(wire
+		(pts
+			(xy 261.62 160.02) (xy 261.62 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fb642f-243c-4f61-9e7d-78025338b192")
 	)
 	(wire
 		(pts
@@ -8789,16 +8809,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 177.8) (xy 261.62 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d13073e-8851-4c14-9bcd-9f2d16aa62cd")
-	)
-	(wire
-		(pts
 			(xy 39.37 54.61) (xy 41.91 54.61)
 		)
 		(stroke
@@ -9649,16 +9659,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 177.8) (xy 261.62 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb77374-e098-4573-b4f0-d2f71b0d9206")
-	)
-	(wire
-		(pts
 			(xy 212.09 39.37) (xy 224.79 39.37)
 		)
 		(stroke
@@ -9876,16 +9876,6 @@
 			(type default)
 		)
 		(uuid "dfaf77e6-799e-4f91-aa43-5b70a59b6af6")
-	)
-	(wire
-		(pts
-			(xy 261.62 160.02) (xy 261.62 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e002b239-d9be-430d-b4b6-3ec4c55616cd")
 	)
 	(wire
 		(pts
@@ -10254,30 +10244,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "V-"
-		(shape input)
-		(at 261.62 181.61 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b456532-8107-4c2c-9ffd-f8723deb55af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 187.2562 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -10881,7 +10847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
 			(at 379.73 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12089,6 +12055,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 205.74 154.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12098,7 +12065,7 @@
 		(dnp no)
 		(uuid "2985618d-9603-4670-a708-1036d459b80d")
 		(property "Reference" "R1"
-			(at 203.708 154.94 90)
+			(at 207.772 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12108,7 +12075,7 @@
 			)
 		)
 		(property "Value" "220Ohm"
-			(at 209.55 154.94 90)
+			(at 201.93 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12118,7 +12085,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 203.962 154.94 90)
+			(at 207.518 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +12502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 361.95 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13507,7 +13474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
 			(at 358.14 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19413,6 +19380,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 224.79 50.8 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19422,7 +19390,7 @@
 		(dnp no)
 		(uuid "fa818111-6b52-410d-9068-d867bb62941a")
 		(property "Reference" "C2"
-			(at 225.806 47.244 0)
+			(at 223.774 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19433,7 +19401,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 225.806 54.356 0)
+			(at 223.774 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19444,7 +19412,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 225.7552 54.61 0)
+			(at 223.8248 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
