@@ -129,18 +129,3 @@ Adjust R12 and R14 to set VO = 16.8 V.
 - [VIPer26LD Datasheet — STMicroelectronics](https://www.st.com/en/power-management/viper26ld.html)
 
 ---
-
-## Project Status
-
-- [x] Schematic v0.4
-- [x] ERC clean
-- [ ] PCB routing complete
-- [ ] DRC clean
-- [ ] Gerbers generated
-- [ ] Prototype assembled
-
----
-
-## Author
-
-**Mirko Jokić** — Electrical Engineering student, Zagreb, Croatia
