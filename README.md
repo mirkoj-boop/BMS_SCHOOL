@@ -2,7 +2,7 @@
 
 ![Front 3D view](images/Front3d.png)
 
-> Custom BMS PCB designed in KiCad for a 4S Li-Ion battery pack — integrates cell protection, passive balancing, isolated AC/DC charging, and LED battery indication on a single board.
+> BMS PCB designed in KiCad for a 4S Li-Ion battery pack integrates cell protection, passive balancing, isolated AC/DC charging, and LED battery indication on a single board.
 
 ---
 
