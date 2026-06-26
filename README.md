@@ -1,4 +1,4 @@
-# BMS — 4S Li-Ion Battery Management System
+# BMS  4S Li-Ion Battery Management System
 
 ![Front 3D view](images/Front3d.png)
 
@@ -8,12 +8,12 @@
 
 ## Features
 
-- **4S Li-Ion protection** via BQ77905 — OVP, UVP, OCD, SCD, OT/UT per cell
+- **4S Li-Ion protection** via BQ77905 - OVP, UVP, OCD, SCD, OT/UT per cell
 - **Passive cell balancing** (VC1–VC5)
-- **Isolated flyback AC/DC charger** — VIPer26LD + PC817 + TL431 feedback
-- **10-segment LED battery indicator** — LM3914
-- **AC EMI filter** — X+Y capacitors, varistor surge protection
-- **Temperature monitoring** — NTC thermistor on TS pin
+- **Isolated flyback AC/DC charger** - VIPer26LD + PC817 + TL431 feedback
+- **10-segment LED battery indicator** - LM3914
+- **AC EMI filter** - X+Y capacitors, varistor surge protection
+- **Temperature monitoring** - NTC thermistor on TS pin
 
 ---
 
@@ -34,13 +34,13 @@
 
 | Reference | Part | Function |
 |---|---|---|
-| U21 | BQ77905 | BMS IC — protection + balancing |
+| U21 | BQ77905 | BMS IC - protection + balancing |
 | U18 | VIPer26LD | Flyback AC/DC controller |
 | U3 | LM3914 | LED battery level indicator |
-| U2 | PC817 | Optocoupler — galvanic isolation |
-| U1 | TL431DBZ | Voltage reference — feedback |
+| U2 | PC817 | Optocoupler - galvanic isolation |
+| U1 | TL431DBZ | Voltage reference - feedback |
 | T3 | Würth EE20_10_6_750811647 | Flyback transformer |
-| Q22, Q23 | CSD19531Q5A | N-ch MOSFETs — charge/discharge path |
+| Q22, Q23 | CSD19531Q5A | N-ch MOSFETs - charge/discharge path |
 | D2 | KBPC | AC bridge rectifier |
 | FL2 | P300PL104M275xC332 | AC EMI filter |
 | RV01 | Varistor | Surge/overvoltage protection |
