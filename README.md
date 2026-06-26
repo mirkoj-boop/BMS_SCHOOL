@@ -25,7 +25,7 @@
 | Nominal pack voltage | 14.4 V |
 | Full charge voltage | 16.8 V |
 | Charge current | 2 A |
-| Charger input | AC mains (isolated flyback) |
+| Charger input |230V(50Hz) |
 | Design tool | KiCad 10 |
 
 ---
@@ -51,7 +51,7 @@
 ## System Architecture
 
 ```
-AC Mains ──► FL2 (EMI filter) ──► D2 (rectifier) ──► U18 VIPer26LD
+230V(50Hz) ──► FL2 (EMI filter) ──► D2 (rectifier) ──► U18 VIPer26LD
                                                               │
                                                          T3 transformer
                                                         ╱             ╲
@@ -66,59 +66,6 @@ AC Mains ──► FL2 (EMI filter) ──► D2 (rectifier) ──► U18 VIPer
                               │
                           LM3914 ──► LED bar
 ```
-
----
-
-## Net Reference
-
-| Net | Description |
-|---|---|
-| `VO` | Flyback output — 16.8V charger output |
-| `VDD` | Aux supply for BQ77905 logic (~5V, from N4 winding) |
-| `V+` | Battery positive (top of 4S stack) |
-| `V-` | Battery negative (voltage measurement reference) |
-| `GND` | Signal/analog ground |
-| `PACK+` / `PACK-` | Load/charger output terminals |
-| `SRP` / `SRN` | Current sense inputs to BQ77905 |
-| `FB` | Feedback from optocoupler to VIPer26LD |
-
----
-
-## Current Sensing
-
-Sense resistor placed between `SRN` and `PACK-`:
-
-```
-Rsns = V_OCD / I_OCD
-```
-
-BQ77905 OCD threshold ≈ 30–34 mV (factory programmed).
-For 2 A OCD: **Rsns ≈ 15–17 mΩ**
-
-> Per TI SLUA793: use multiple resistors in parallel for better heat distribution on high-current paths.
-
----
-
-## Output Voltage Setting
-
-```
-VO = Vref × (1 + R12/R14)    Vref = 2.495V (TL431)
-```
-
-Adjust R12 and R14 to set VO = 16.8 V.
-
----
-
-## PCB Notes
-
-- Power traces (VO, PACK+, PACK−): **0.6 mm minimum**, 1.0 mm preferred for 2 A
-- Signal traces (SRP, SRN, VC1–VC5, FB): 0.25 mm
-- Via: 1 mm / 0.5 mm drill on power nets
-- GND copper pour on B.Cu recommended
-- Maintain AC/DC isolation clearance per IPC-2221
-- 2 oz copper recommended for power path (TI SLUA793)
-
----
 
 ## References
 
